@@ -17,12 +17,18 @@ body{
 	
 	margin:50px auto;
 }
-.content .box{
-	width:205px;
-	height:220px;
+
+/*屏幕较宽时*/
+@media screen and(min-width:980px){
+	.content .box{
+		width:205px;
+		height:220px;	
+	}
+}
+
+/*屏幕较窄时*/
+@media screen and(max-width:980px){
 	
-	float:left;
-	margin:0 60px;
 }
 
 .box-mission .icon{
@@ -109,19 +115,19 @@ body{
 
 .box .line{
 	background-color:#FFF;
+	transition:all 0.2s ease;
+	-webkit-transition:all 0.2s ease;
+	-os-transition:all 0.2s ease;
+	-moz-transition:all 0.2s ease;
+	display:block;
+	position:absolute;
 }
 /*设置顶部线条*/
 .box .line-top{
 	width:0px;
 	height:2px;
-	display:block;
-	position:absolute;
 	top:-2px;
 	left:-100%;
-	transition:all 0.2s ease;
-	-webkit-transition:all 0.2s ease;
-	-os-transition:all 0.2s ease;
-	-moz-transition:all 0.2s ease;
 }
 
 .box .button:hover .line-top{
@@ -132,14 +138,8 @@ body{
 .box .line-bottom{
 	width:0px;
 	height:2px;
-	display:block;
-	position:absolute;
 	bottom:-2px;
 	right:-100%;
-	transition:all 0.2s ease;
-	-webkit-transition:all 0.2s ease;
-	-os-transition:all 0.2s ease;
-	-moz-transition:all 0.2s ease;
 }
 
 .box .button:hover .line-bottom{
@@ -155,14 +155,9 @@ body{
 .box .line-left{
 	width:2px;
 	height:0px;
-	display:block;
-	position:absolute;
 	left:-2px;
 	bottom:-100%;
-	transition:all 0.2s ease;
-	-webkit-transition:all 0.2s ease;
-	-os-transition:all 0.2s ease;
-	-moz-transition:all 0.2s ease;
+	
 }
 
 .box .button:hover .line-left{
@@ -179,14 +174,8 @@ body{
 .box .line-right{
 	width:2px;
 	height:0px;
-	display:block;
-	position:absolute;
 	right:-2px;
 	top:-100%;
-	transition:all 0.2s ease;
-	-webkit-transition:all 0.2s ease;
-	-os-transition:all 0.2s ease;
-	-moz-transition:all 0.2s ease;
 }
 .box .button:hover .line-right{
 	height:49px;
