@@ -1,0 +1,87 @@
+.ghost{
+    border:1px solid red;
+}
+
+*{
+	padding:0;
+	margin:0;
+}
+
+body{
+	background:#333;
+}
+
+.content{
+	width:1000px;
+	height:400px;
+	background:red;
+	margin:50px auto;
+}
+.content .box{
+	width:205px;
+	height:220px;
+	background:green;
+	float:left;
+	margin:0 60px;
+}
+
+.box-mission .icon{
+	display:block;
+	width:174px;
+	height:155px;
+	background:url(./images/mission.png) no-repeat;
+	margin:0 auto;
+	transition:all 0.2s;
+	-webkit-transition:all 0.2s;
+	-o-transition:all 0.2s;
+	-moz-transition:all 0.2s;
+}
+
+.box-mission .icon:hover{
+	transform:scale(1.2) rotate(360deg);
+	-webkit-transform:scale(1.2) rotate(360deg);
+	-o-transform:scale(1.2) rotate(360deg);
+	-moz-transform:scale(1.2) rotate(360deg);
+}
+.box-play .icon{
+	display:block;
+	width:174px;
+	height:155px;
+	background:url(./images/play.png) no-repeat;
+	margin:0 auto;
+	transition:all 0.2s;
+	-webkit-transition:all 0.2s;
+	-o-transition:all 0.2s;
+	-moz-transition:all 0.2s;
+}
+
+.box-play .icon:hover{
+	transform:scale(1.2) rotate(360deg);
+	-webkit-transform:scale(1.2) rotate(360deg);
+	-o-transform:scale(1.2) rotate(360deg);
+	-moz-transform:scale(1.2) rotate(360deg);
+}
+
+.box-touch .icon{
+	display:block;
+	width:174px;
+	height:155px;
+	background:url(./images/touch.png) no-repeat;
+	margin:0 auto;
+	transition:all 0.2s;
+	-webkit-transition:all 0.2s;
+	-o-transition:all 0.2s;
+	-moz-transition:all 0.2s;
+}
+
+.box-touch .icon:hover{
+	transform:scale(1.2) rotate(360deg);
+	-webkit-transform:scale(1.2) rotate(360deg);
+	-o-transform:scale(1.2) rotate(360deg);
+	-moz-transform:scale(1.2) rotate(360deg);
+}
+
+.box a{
+	margin:0 auto;
+}
+
