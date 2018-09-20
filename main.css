@@ -14,13 +14,13 @@ body{
 .content{
 	width:1000px;
 	height:400px;
-	background:red;
+	
 	margin:50px auto;
 }
 .content .box{
 	width:205px;
 	height:220px;
-	background:green;
+	
 	float:left;
 	margin:0 60px;
 }
@@ -81,7 +81,28 @@ body{
 	-moz-transform:scale(1.2) rotate(360deg);
 }
 
-.box a{
-	margin:0 auto;
+.box .button{
+	background:url(./images/allow.png) no-repeat 130px center;
+	display:block;
+	width:156px;
+	height:45px;
+	line-height:45px;
+	margin:20px auto;
+	font-family:"微软雅黑";
+	font-weight:bolder;
+	font-size:18px;
+	color:#2ECC71;
+	text-decoration:none;
+	padding-left:20px;
+	border:2px solid rgba(255,255,255,0.2);
+	transition:all 0.2s ease;
+	-webkit-transition:all 0.2s ease;
+	-o-transition:all 0.2s ease;
+	-moz-transition:all 0.2s ease;
 }
 
+.box .button:hover{
+	background-position:140px center;
+	border:2px solid rgba(255,255,255,1);
+}
+	
